@@ -1,0 +1,164 @@
+/* Very Extra small devices (portrait phones, less than 480px) */
+@media (min-width: 1px) and (max-width: 479.98px) {
+    .header-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .header-part p {
+        text-align: center;
+    }
+
+    .middle-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .middle-part p {
+        text-align: center;
+    }
+
+    .middle-img img {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .experience-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .experience-part p {
+        text-align: center;
+        background-image: none;
+    }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .header-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .header-part p {
+        text-align: center;
+    }
+
+    .middle-part {
+        text-align: center;
+    }
+
+    .middle-part p {
+        text-align: center;
+    }
+
+    .middle-img img {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .experience-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .experience-part p {
+        text-align: center;
+        background-image: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .header-part p {
+        text-align: center;
+    }
+
+    .middle-part {
+        text-align: center;
+    }
+
+    .middle-part p {
+        text-align: center;
+    }
+
+    .middle-img img {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .experience-part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .experience-part p {
+        text-align: center;
+        background-image: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-part {
+        background-image: none;
+    }
+
+    .header-img img {
+        padding-top: 115px;
+    }
+
+    .middle-part {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .middle-content p {
+        width: 80%;
+    }
+
+    .middle-img img {
+        padding-top: 85px;
+    }
+
+    .experience-part {
+        padding-top: 70px;
+        background-image: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-content {
+        padding-top: 50px;
+    }
+
+    .header-img img {
+        width: 450px;
+        padding-top: 50px;
+    }
+
+    .middle-content p {
+        width: 80%;
+    }
+
+    .experience-part {
+        background-size: 45px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1320px) {
+    .middle-content p {
+        width: 90%;
+    }
+
+    .experience-part {
+        background-size: 59px;
+    }
+}

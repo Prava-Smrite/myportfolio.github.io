@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* header-content start */
+.header-part {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.name {
+    color: orange;
+}
+.header-content {
+    padding-top: 30px;
+}
+.header-content h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.header-content h2 {
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.header-content h5 {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.header-content p {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.header-img img {
+    width: 450px;
+    padding-top: 30px;
+}
+.btn-custom {
+    background-color: #FB6B58;
+    padding: 6px 20px;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+.btn-custom:hover {
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
+/* header-content end */
+/* middle-content start */
+.middle-part {
+    padding: 80px 0px;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-content {
+    padding-top: 50px;
+}
+.middle-content h4 {
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.middle-content h5 {
+    padding-bottom: 15px;
+}
+.middle-content p {
+    text-align: initial;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.btn-custom-two {
+    background-color: #FB6B58;
+    padding: 6px 20px;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+.btn-custom-two:hover {
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
+/* middle-content end */
+/* experience part start*/
+.experience-part {
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 30px;
+    background-size: 90px;
+}
+.experience-part .title h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left-part,
+.right-part {
+    box-shadow: -15px 11px 9px #ddd;
+    padding: 10px;
+}
+#left-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(238, 143, 106), tomato);
+    border-image-slice: 1;
+}
+#right-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(107, 131, 240), rgb(54, 86, 233));
+    border-image-slice: 1;
+}
+.left-part h2,
+.right-part h2 {
+    font-weight: 500;
+}
+.left-part h5,
+.right-part h5 {
+    font-size: 14px;
+    color: orange;
+}
+.left-part p,
+.right-part p {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+/* experience part end*/
+/* footer part start*/
+.footer-part {
+    padding-top: 50px;
+}
+.footer-text p {
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #FB6B58
+}
+/* footer part end*/
